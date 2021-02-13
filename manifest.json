@@ -1,14 +1,14 @@
 {
   "name": "LeetCode 学习笔记",
   "short_name": "LeetCode 学习笔记",
-  "start_url": "/leetcode-note/",
-  "scope": "/leetcode-note/",
+  "start_url": "/leetcode/",
+  "scope": "/leetcode/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/leetcode-note/favicon.svg",
+      "src": "/leetcode/favicon.svg",
       "sizes": "512x512"
     }
   ]
