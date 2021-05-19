@@ -5,21 +5,31 @@
   <meta name="generator" content="Hugo 0.71.0" />
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="两数之和 #  题目 #  中文 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那两个整数，并返回他们的数组下标。
-你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。
-示例:
-给定 nums = [2, 7, 11, 15], target = 9 因为 nums[0] &#43; nums[1] = 2 &#43; 7 = 9 所以返回 [0, 1] English Given an array of integers, return indices of the two numbers such that they add up to a specific target.
-You may assume that each input would have exactly one solution, and you may not use the same element twice.">
-<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="1. 两数之和" />
-<meta property="og:description" content="两数之和 #  题目 #  中文 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那两个整数，并返回他们的数组下标。
-你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。
-示例:
-给定 nums = [2, 7, 11, 15], target = 9 因为 nums[0] &#43; nums[1] = 2 &#43; 7 = 9 所以返回 [0, 1] English Given an array of integers, return indices of the two numbers such that they add up to a specific target.
-You may assume that each input would have exactly one solution, and you may not use the same element twice." />
+<meta name="description" content="反转链表 #  题目 #  中文 给你单链表的头节点 head ，请你反转链表，并返回反转后的链表。
+示例 1：
+输入：head = [1,2,3,4,5] 输出：[5,4,3,2,1] 示例 2：
+输入：head = [1,2] 输出：[2,1] 示例 3：
+输入：head = [] 输出：[] 提示：
+链表中节点的数目范围是 [0, 5000] -5000 &lt;= Node.val &lt;= 5000 进阶：链表可以选用迭代或递归方式完成反转。你能否用两种方法解决这道题？
+English Given the head of a singly linked list, reverse the list, and return the reversed list.
+Example 1:
+Input: head = [1,2,3,4,5] Output: [5,4,3,2,1] Example 2:
+Input: head = [1,2] Output: [2,1] Example 3:">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="206. 反转链表" />
+<meta property="og:description" content="反转链表 #  题目 #  中文 给你单链表的头节点 head ，请你反转链表，并返回反转后的链表。
+示例 1：
+输入：head = [1,2,3,4,5] 输出：[5,4,3,2,1] 示例 2：
+输入：head = [1,2] 输出：[2,1] 示例 3：
+输入：head = [] 输出：[] 提示：
+链表中节点的数目范围是 [0, 5000] -5000 &lt;= Node.val &lt;= 5000 进阶：链表可以选用迭代或递归方式完成反转。你能否用两种方法解决这道题？
+English Given the head of a singly linked list, reverse the list, and return the reversed list.
+Example 1:
+Input: head = [1,2,3,4,5] Output: [5,4,3,2,1] Example 2:
+Input: head = [1,2] Output: [2,1] Example 3:" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ikingye.github.io/leetcode/docs/0/1/" />
-<meta property="article:modified_time" content="2020-10-03T22:59:10+08:00" />
-<title>1. 两数之和 | LeetCode 学习笔记</title>
+<meta property="og:url" content="https://ikingye.github.io/leetcode/docs/2/206/" />
+
+<title>206. 反转链表 | LeetCode 学习笔记</title>
 <link rel="manifest" href="/leetcode/manifest.json">
 <link rel="icon" href="/leetcode/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/leetcode/book.min.47e4577a72cc9340ba815ebf8200a2e1642b6e7a28caf0622c921ba9d7c4478e.css" integrity="sha256-R&#43;RXenLMk0C6gV6/ggCi4WQrbnooyvBiLJIbqdfER44=">
@@ -84,7 +94,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-48342c489cb295368a17eb8af3921d83" class="toggle" checked />
+    <input type="checkbox" id="section-48342c489cb295368a17eb8af3921d83" class="toggle"  />
     <label for="section-48342c489cb295368a17eb8af3921d83" class="flex justify-between">
       <a href="https://ikingye.github.io/leetcode/docs/0/" class="">1-100</a>
     </label>
@@ -100,7 +110,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://ikingye.github.io/leetcode/docs/0/1/" class=" active">1. 两数之和</a>
+    <a href="https://ikingye.github.io/leetcode/docs/0/1/" class="">1. 两数之和</a>
   
 
         </li>
@@ -269,7 +279,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <input type="checkbox" id="section-9164bdca8d53bfb8735109de939fef90" class="toggle"  />
+    <input type="checkbox" id="section-9164bdca8d53bfb8735109de939fef90" class="toggle" checked />
     <label for="section-9164bdca8d53bfb8735109de939fef90" class="flex justify-between">
       <a href="https://ikingye.github.io/leetcode/docs/2/" class="">201-300</a>
     </label>
@@ -285,7 +295,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://ikingye.github.io/leetcode/docs/2/206/" class="">206. 反转链表</a>
+    <a href="https://ikingye.github.io/leetcode/docs/2/206/" class=" active">206. 反转链表</a>
   
 
         </li>
@@ -608,7 +618,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/leetcode/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>1. 两数之和</strong>
+  <strong>206. 反转链表</strong>
 
   <label for="toc-control">
     
@@ -622,13 +632,13 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h1 id="两数之和">
-  两数之和
-  <a class="anchor" href="#%e4%b8%a4%e6%95%b0%e4%b9%8b%e5%92%8c">#</a>
+  <article class="markdown"><h1 id="反转链表">
+  反转链表
+  <a class="anchor" href="#%e5%8f%8d%e8%bd%ac%e9%93%be%e8%a1%a8">#</a>
 </h1>
-<h2 id="题目httpsleetcode-cncomproblemstwo-sum">
-  <a href="https://leetcode-cn.com/problems/two-sum">题目</a>
-  <a class="anchor" href="#%e9%a2%98%e7%9b%aehttpsleetcode-cncomproblemstwo-sum">#</a>
+<h2 id="题目httpsleetcode-cncomproblemsreverse-linked-list">
+  <a href="https://leetcode-cn.com/problems/reverse-linked-list/">题目</a>
+  <a class="anchor" href="#%e9%a2%98%e7%9b%aehttpsleetcode-cncomproblemsreverse-linked-list">#</a>
 </h2>
 
 
@@ -636,23 +646,37 @@ https://github.com/alex-shpak/hugo-book
 
 <div class="book-tabs"><input type="radio" class="toggle" name="tabs-leetcode-problem" id="tabs-leetcode-problem-0" checked="checked" />
   <label for="tabs-leetcode-problem-0">中文</label>
-  <div class="book-tabs-content markdown-inner"><p>给定一个整数数组 nums  和一个目标值 target，请你在该数组中找出和为目标值的那<strong>两个</strong>整数，并返回他们的数组下标。</p>
-<p>你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。</p>
-<p>示例:</p>
-<pre><code>给定 nums = [2, 7, 11, 15], target = 9
-
-因为 nums[0] + nums[1] = 2 + 7 = 9
-所以返回 [0, 1]
-</code></pre></div><input type="radio" class="toggle" name="tabs-leetcode-problem" id="tabs-leetcode-problem-1"  />
+  <div class="book-tabs-content markdown-inner"><p>给你单链表的头节点 head ，请你反转链表，并返回反转后的链表。</p>
+<p>示例 1：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">输入：head <span style="color:#f92672">=</span> <span style="color:#f92672">[</span>1,2,3,4,5<span style="color:#f92672">]</span>
+输出：<span style="color:#f92672">[</span>5,4,3,2,1<span style="color:#f92672">]</span>
+</code></pre></div><p>示例 2：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">输入：head <span style="color:#f92672">=</span> <span style="color:#f92672">[</span>1,2<span style="color:#f92672">]</span>
+输出：<span style="color:#f92672">[</span>2,1<span style="color:#f92672">]</span>
+</code></pre></div><p>示例 3：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">输入：head <span style="color:#f92672">=</span> <span style="color:#f92672">[]</span>
+输出：<span style="color:#f92672">[]</span>
+</code></pre></div><p>提示：</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-shell" data-lang="shell">链表中节点的数目范围是 <span style="color:#f92672">[</span>0, 5000<span style="color:#f92672">]</span>
+-5000 &lt;<span style="color:#f92672">=</span> Node.val &lt;<span style="color:#f92672">=</span> <span style="color:#ae81ff">5000</span>
+</code></pre></div><p>进阶：链表可以选用迭代或递归方式完成反转。你能否用两种方法解决这道题？</p>
+</div><input type="radio" class="toggle" name="tabs-leetcode-problem" id="tabs-leetcode-problem-1"  />
   <label for="tabs-leetcode-problem-1">English</label>
-  <div class="book-tabs-content markdown-inner"><p>Given an array of integers, return indices of the two numbers such that they add up to a specific target.</p>
-<p>You may assume that each input would have exactly one solution, and you may not use the same element twice.</p>
-<p>Example:</p>
-<pre><code>Given nums = [2, 7, 11, 15], target = 9,
-
-Because nums[0] + nums[1] = 2 + 7 = 9,
-return [0, 1].
-</code></pre></div></div>
+  <div class="book-tabs-content markdown-inner"><p>Given the head of a singly linked list, reverse the list, and return the reversed list.</p>
+<p>Example 1:</p>
+<pre><code>Input: head = [1,2,3,4,5]
+Output: [5,4,3,2,1]
+</code></pre><p>Example 2:</p>
+<pre><code>Input: head = [1,2]
+Output: [2,1]
+</code></pre><p>Example 3:</p>
+<pre><code>Input: head = []
+Output: []
+</code></pre><p>Constraints:</p>
+<pre><code>The number of nodes in the list is the range [0, 5000].
+-5000 &lt;= Node.val &lt;= 5000
+</code></pre><p>Follow up: A linked list can be reversed either iteratively or recursively. Could you implement both?</p>
+</div></div>
 
 <hr>
 <h2 id="分析">
@@ -667,7 +691,9 @@ return [0, 1].
   <label for="tabs-leetcode-analysis-0">基础</label>
   <div class="book-tabs-content markdown-inner"></div><input type="radio" class="toggle" name="tabs-leetcode-analysis" id="tabs-leetcode-analysis-1"  />
   <label for="tabs-leetcode-analysis-1">进阶</label>
-  <div class="book-tabs-content markdown-inner">使用 hash 表，记录过程数据，空间换时间</div></div>
+  <div class="book-tabs-content markdown-inner"></div><input type="radio" class="toggle" name="tabs-leetcode-analysis" id="tabs-leetcode-analysis-2"  />
+  <label for="tabs-leetcode-analysis-2">高阶</label>
+  <div class="book-tabs-content markdown-inner"></div></div>
 
 <hr>
 <h2 id="题解">
@@ -689,35 +715,29 @@ return [0, 1].
   <div class="book-tabs-content markdown-inner"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c#" data-lang="c#">
 </code></pre></div></div><input type="radio" class="toggle" name="tabs-leetcode-solution" id="tabs-leetcode-solution-3"  />
   <label for="tabs-leetcode-solution-3">Go</label>
-  <div class="book-tabs-content markdown-inner"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#66d9ef">func</span> <span style="color:#a6e22e">twoSum</span>(<span style="color:#a6e22e">nums</span> []<span style="color:#66d9ef">int</span>, <span style="color:#a6e22e">target</span> <span style="color:#66d9ef">int</span>) []<span style="color:#66d9ef">int</span> {
-    <span style="color:#a6e22e">tmp</span> <span style="color:#f92672">:=</span> make(<span style="color:#66d9ef">map</span>[<span style="color:#66d9ef">int</span>]<span style="color:#66d9ef">int</span>)
-    <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">k</span>, <span style="color:#a6e22e">v</span> <span style="color:#f92672">:=</span> <span style="color:#66d9ef">range</span>(<span style="color:#a6e22e">nums</span>) {
-        <span style="color:#a6e22e">first</span>, <span style="color:#a6e22e">ok</span> <span style="color:#f92672">:=</span> <span style="color:#a6e22e">tmp</span>[<span style="color:#a6e22e">v</span>]
-        <span style="color:#66d9ef">if</span> <span style="color:#a6e22e">ok</span> {
-            <span style="color:#66d9ef">return</span> []<span style="color:#66d9ef">int</span>{<span style="color:#a6e22e">first</span>, <span style="color:#a6e22e">k</span>}
-        }
-
-        <span style="color:#a6e22e">tmp</span>[<span style="color:#a6e22e">target</span> <span style="color:#f92672">-</span> <span style="color:#a6e22e">v</span>] = <span style="color:#a6e22e">k</span>
+  <div class="book-tabs-content markdown-inner"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#75715e">/**
+</span><span style="color:#75715e"> * Definition for singly-linked list.
+</span><span style="color:#75715e"> * type ListNode struct {
+</span><span style="color:#75715e"> *     Val int
+</span><span style="color:#75715e"> *     Next *ListNode
+</span><span style="color:#75715e"> * }
+</span><span style="color:#75715e"> */</span>
+<span style="color:#66d9ef">func</span> <span style="color:#a6e22e">reverseList</span>(<span style="color:#a6e22e">head</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">ListNode</span>) <span style="color:#f92672">*</span><span style="color:#a6e22e">ListNode</span> {
+    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">pre</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">ListNode</span> = <span style="color:#66d9ef">nil</span>
+    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">next</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">ListNode</span> = <span style="color:#66d9ef">nil</span>
+    <span style="color:#66d9ef">var</span> <span style="color:#a6e22e">cur</span> <span style="color:#f92672">*</span><span style="color:#a6e22e">ListNode</span> = <span style="color:#a6e22e">head</span>
+    <span style="color:#66d9ef">for</span> <span style="color:#a6e22e">cur</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">nil</span> {
+        <span style="color:#a6e22e">next</span> = <span style="color:#a6e22e">cur</span>.<span style="color:#a6e22e">Next</span>
+        <span style="color:#a6e22e">cur</span>.<span style="color:#a6e22e">Next</span> = <span style="color:#a6e22e">pre</span>
+        <span style="color:#a6e22e">pre</span> = <span style="color:#a6e22e">cur</span>
+        <span style="color:#a6e22e">cur</span> = <span style="color:#a6e22e">next</span>
     }
 
-    <span style="color:#66d9ef">return</span> []<span style="color:#66d9ef">int</span>{}
+    <span style="color:#66d9ef">return</span> <span style="color:#a6e22e">pre</span>
 }
 </code></pre></div></div><input type="radio" class="toggle" name="tabs-leetcode-solution" id="tabs-leetcode-solution-4"  />
   <label for="tabs-leetcode-solution-4">Java</label>
-  <div class="book-tabs-content markdown-inner"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span> <span style="color:#f92672">{</span>
-    <span style="color:#66d9ef">public</span> <span style="color:#66d9ef">int</span><span style="color:#f92672">[]</span> <span style="color:#a6e22e">twoSum</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span><span style="color:#f92672">[]</span> nums<span style="color:#f92672">,</span> <span style="color:#66d9ef">int</span> target<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-        HashMap <span style="color:#f92672">&lt;</span>Integer<span style="color:#f92672">,</span> Integer<span style="color:#f92672">&gt;</span> tmp <span style="color:#f92672">=</span> <span style="color:#66d9ef">new</span> HashMap<span style="color:#f92672">&lt;</span>Integer<span style="color:#f92672">,</span> Integer<span style="color:#f92672">&gt;();</span>
-        <span style="color:#66d9ef">for</span><span style="color:#f92672">(</span><span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> 0<span style="color:#f92672">;</span> i <span style="color:#f92672">&lt;</span> nums<span style="color:#f92672">.</span><span style="color:#a6e22e">length</span><span style="color:#f92672">;</span> i<span style="color:#f92672">++)</span> <span style="color:#f92672">{</span>
-            <span style="color:#66d9ef">if</span> <span style="color:#f92672">(</span>tmp<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span>nums<span style="color:#f92672">[</span>i<span style="color:#f92672">])</span> <span style="color:#f92672">!=</span> <span style="color:#66d9ef">null</span><span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-                <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">int</span><span style="color:#f92672">[]</span> <span style="color:#f92672">{</span>tmp<span style="color:#f92672">.</span><span style="color:#a6e22e">get</span><span style="color:#f92672">(</span>nums<span style="color:#f92672">[</span>i<span style="color:#f92672">]),</span> i<span style="color:#f92672">};</span>
-            <span style="color:#f92672">}</span> <span style="color:#66d9ef">else</span> <span style="color:#f92672">{</span>
-                tmp<span style="color:#f92672">.</span><span style="color:#a6e22e">put</span><span style="color:#f92672">(</span>target <span style="color:#f92672">-</span> nums<span style="color:#f92672">[</span>i<span style="color:#f92672">],</span> i<span style="color:#f92672">);</span>
-            <span style="color:#f92672">}</span>
-        <span style="color:#f92672">}</span>
-
-        <span style="color:#66d9ef">return</span> <span style="color:#66d9ef">new</span> <span style="color:#66d9ef">int</span><span style="color:#f92672">[]</span> <span style="color:#f92672">{};</span>
-    <span style="color:#f92672">}</span>
-<span style="color:#f92672">}</span>
+  <div class="book-tabs-content markdown-inner"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-java" data-lang="java">
 </code></pre></div></div><input type="radio" class="toggle" name="tabs-leetcode-solution" id="tabs-leetcode-solution-5"  />
   <label for="tabs-leetcode-solution-5">JavaScript</label>
   <div class="book-tabs-content markdown-inner"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript">
@@ -729,23 +749,10 @@ return [0, 1].
   <div class="book-tabs-content markdown-inner"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-php" data-lang="php">
 </code></pre></div></div><input type="radio" class="toggle" name="tabs-leetcode-solution" id="tabs-leetcode-solution-8"  />
   <label for="tabs-leetcode-solution-8">Python2</label>
-  <div class="book-tabs-content markdown-inner"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span>(object):
-    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">twoSum</span>(self, nums, target):
-        <span style="color:#e6db74">&#34;&#34;&#34;
-</span><span style="color:#e6db74">        :type nums: List[int]
-</span><span style="color:#e6db74">        :type target: int
-</span><span style="color:#e6db74">        :rtype: List[int]
-</span><span style="color:#e6db74">        &#34;&#34;&#34;</span>
-        r <span style="color:#f92672">=</span> {}
-        <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(len(nums)):
-            <span style="color:#66d9ef">if</span> nums[i] <span style="color:#f92672">in</span> r:
-                <span style="color:#66d9ef">return</span> i, r[nums[i]]
-            <span style="color:#66d9ef">else</span>:
-                r[target <span style="color:#f92672">-</span> nums[i]] <span style="color:#f92672">=</span> i
+  <div class="book-tabs-content markdown-inner"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
 </code></pre></div></div><input type="radio" class="toggle" name="tabs-leetcode-solution" id="tabs-leetcode-solution-9"  />
   <label for="tabs-leetcode-solution-9">Python3</label>
-  <div class="book-tabs-content markdown-inner"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#66d9ef">class</span> <span style="color:#a6e22e">Solution</span>:
-    <span style="color:#66d9ef">def</span> <span style="color:#a6e22e">twoSum</span>(self, nums: List[int], target: int) <span style="color:#f92672">-&gt;</span> List[int]:
+  <div class="book-tabs-content markdown-inner"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">
 </code></pre></div></div><input type="radio" class="toggle" name="tabs-leetcode-solution" id="tabs-leetcode-solution-10"  />
   <label for="tabs-leetcode-solution-10">Ruby</label>
   <div class="book-tabs-content markdown-inner"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-ruby" data-lang="ruby">
@@ -758,9 +765,6 @@ return [0, 1].
 </code></pre></div></div><input type="radio" class="toggle" name="tabs-leetcode-solution" id="tabs-leetcode-solution-13"  />
   <label for="tabs-leetcode-solution-13">Swift</label>
   <div class="book-tabs-content markdown-inner"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-swift" data-lang="swift">
-</code></pre></div></div><input type="radio" class="toggle" name="tabs-leetcode-solution" id="tabs-leetcode-solution-14"  />
-  <label for="tabs-leetcode-solution-14">TypeScript</label>
-  <div class="book-tabs-content markdown-inner"><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-typescript" data-lang="typescript">
 </code></pre></div></div></div>
 
 </article>
@@ -772,12 +776,6 @@ return [0, 1].
   <div class="flex flex-wrap justify-between">
 
 
-
-  <div><a class="flex align-center" href="https://github.com/ikingye/leetcode/commit/9e063d0017c7b6e17c02b786d9ae68fb4fa054a6" title='Last modified by yewang | 2020-10-03' target="_blank" rel="noopener">
-      <img src="/leetcode/svg/calendar.svg" class="book-icon" alt="Calendar" />
-      <span>2020-10-03</span>
-    </a>
-  </div>
 
 
 
