@@ -1,163 +1,99 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://ikingye.github.io/leetcode/docs/0/1/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/0/2/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/0/3/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/0/4/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/0/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/0/7/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/0/9/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/0/10/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/1/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/2/</loc>
     <lastmod>2021-05-19T10:03:03+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/3/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/4/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/5/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/0/54/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/6/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/7/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/0/71/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/8/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/9/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/10/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/1/110/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/11/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/12/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/13/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/14/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/1/146/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/2/206/</loc>
     <lastmod>2021-05-19T10:03:03+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/6/671/</loc>
     <lastmod>2020-10-03T22:59:10+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/categories/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/docs/</loc>
     <lastmod>2021-05-19T10:03:03+08:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/tags/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://ikingye.github.io/leetcode/</loc>
     <lastmod>2020-10-03T21:59:21+08:00</lastmod>
   </url>
-  
 </urlset>

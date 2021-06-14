@@ -4,11 +4,7 @@
     <title>101-200 on LeetCode 学习笔记</title>
     <link>https://ikingye.github.io/leetcode/docs/1/</link>
     <description>Recent content in 101-200 on LeetCode 学习笔记</description>
-    <generator>Hugo -- gohugo.io</generator>
-    
-	<atom:link href="https://ikingye.github.io/leetcode/docs/1/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://ikingye.github.io/leetcode/docs/1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>110. 平衡二叉树</title>
       <link>https://ikingye.github.io/leetcode/docs/1/110/</link>
